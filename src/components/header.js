@@ -13,7 +13,7 @@ const Header = props => {
 const styles = {
   viewStyle: {
     backgroundColor: '#F8F8F8',
-    top: 20,
+    top: 22,
     height: 60,
     justifyContent: 'center',
     alignItems: 'center',
@@ -22,6 +22,7 @@ const styles = {
     shadowOpacity: 0.2,
     elevation: 2,
     position: 'relative',
+    zIndex: 10,
   },
   textStyle: {
     fontSize: 20,
